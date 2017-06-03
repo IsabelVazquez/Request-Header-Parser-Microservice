@@ -9,6 +9,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.15.3"
+    "accept-language-parser": "^1.4.0",
+    "express": "^4.15.3",
+    "useragent": "^2.1.13"
   }
 }
