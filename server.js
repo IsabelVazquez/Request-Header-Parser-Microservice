@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+var port = process.env.PORT;
 const parser = require('accept-language-parser');
 var useragent = require('useragent');
 
@@ -15,6 +16,5 @@ app.get('/', function (req, res) {
   }))
 })
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 8080!')
-})
+app.listen(port);
+console.log("Server is listening on port " + port);
