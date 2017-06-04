@@ -1,13 +1,14 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
-    node: "4.7.3",
-    npm: "2.15.11"
+    "node": "4.7.3",
+    "npm": "2.15.11"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
